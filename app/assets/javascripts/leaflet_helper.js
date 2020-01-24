@@ -103,7 +103,7 @@
        });
 
        L.LayerGroup.EnvironmentalLayers({
-        //    include: layers,
+           include: layers,
        }).addTo(map);
 
        if(typeof mainLayer !== "undefined" && mainLayer !== ""){
