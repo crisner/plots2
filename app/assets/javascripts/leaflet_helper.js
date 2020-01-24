@@ -95,7 +95,7 @@
 
        layers = layers.split(',');
 
-       L.tileLayer('https://a.tiles.mapbox.com/v3/jywarren.map-lmrwb2em/{z}/{x}/{y}.png').addTo(map) ;
+    //    L.tileLayer('https://a.tiles.mapbox.com/v3/jywarren.map-lmrwb2em/{z}/{x}/{y}.png').addTo(map) ;
 
        var oms = omsUtil(map, {
           keepSpiderfied: true,
@@ -141,9 +141,9 @@
    }
 
    function setupLEL(map , sethash){
-      L.tileLayer('https://a.tiles.mapbox.com/v3/jywarren.map-lmrwb2em/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-      }).addTo(map) ;
+    //   L.tileLayer('https://a.tiles.mapbox.com/v3/jywarren.map-lmrwb2em/{z}/{x}/{y}.png', {
+    //             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    //   }).addTo(map) ;
 
       var oms = omsUtil(map, {
         keepSpiderfied: true,
